@@ -542,7 +542,7 @@ body {
 			}
 		}
 		
-	hr {
+	&__hr {
 		@media screen and (min-width: 900px) {
 			width: $width;
 			color: $menucolor;

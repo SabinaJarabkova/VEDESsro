@@ -488,7 +488,7 @@ body {
   }
 }
 @media screen and (min-width: 900px) {
-  .technika hr {
+  .technika__hr {
     width: 100%;
     color: #1a1009;
   }
