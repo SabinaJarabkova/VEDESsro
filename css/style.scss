@@ -556,13 +556,18 @@ body {
 .gallery {
 	display: flex;
 	flex-wrap: wrap;
+  margin-left: auto;
+  margin-right: auto;
 	
 	@media screen and (min-width: 900px) {
 		padding: 40px;
 		}
 	
 	&__title {
-		padding:  15px 30px;
+    width: $width;
+		padding: 35px auto;
+    margin: 30px auto;
+    text-align: center;
 		}
 		
 	&__grid {
@@ -579,11 +584,10 @@ body {
 		}
 		
 	&__item {
-		width: 90%;
+		width: $width;
 		padding: 10px 10%;
 		
 		@media screen and (min-width: 900px) {
-			width: $width;
 			height: 100%;
 			object-fit: cover;
 			padding: 0;
