@@ -515,6 +515,8 @@ body {
 .gallery__grid {
   margin-left: auto;
   margin-right: auto;
+  display: grid;
+  grid-template-columns: 1fr;
 }
 @media screen and (min-width: 900px) {
   .gallery__grid {
@@ -527,7 +529,7 @@ body {
 }
 .gallery__item {
   width: 100%;
-  padding: 10px 10%;
+  padding: 10px 5%;
 }
 @media screen and (min-width: 900px) {
   .gallery__item {

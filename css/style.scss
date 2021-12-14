@@ -573,6 +573,8 @@ body {
 	&__grid {
 		margin-left: auto;
 		margin-right: auto;
+    display: grid;
+    grid-template-columns: 1fr;
 		
 		@media screen and (min-width: 900px) {
 			display: grid;
@@ -585,7 +587,7 @@ body {
 		
 	&__item {
 		width: $width;
-		padding: 10px 10%;
+		padding: 10px 5%;
 		
 		@media screen and (min-width: 900px) {
 			height: 100%;
