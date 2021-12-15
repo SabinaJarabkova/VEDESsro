@@ -149,7 +149,7 @@ body {
 	color: white;
 	text-align: center;
 	width: $width;
-	/* margin-top: 20px; */
+	margin-top: 20px; 
 	font-size: 12px;
   margin-top: 0;
 	
@@ -647,7 +647,7 @@ body {
 		
 	&__tablegrid {
 		margin: 0 auto;
-		padding: 20px 40px;
+		// padding: 20px 40px;
     }
 
   &__table {
@@ -658,10 +658,26 @@ body {
 	}
 
 .cennik__container {
-  height: 100vh;
-  width: $width;
-  background-image: none;
-  margin: 0 auto;
+  @media screen and (min-width: 900px) {
+    height: calc(100vh + 170px);
+    width: $width;
+    background-image: none;
+    margin: 0 auto;
+    }
+
+    @media screen and (min-width: 1100px) {
+      height: calc(100vh + 120px);
+      width: $width;
+      background-image: none;
+      margin: 0 auto;
+      }
+
+  @media screen and (min-width: 1300px) {
+    height: calc(100vh + 104px);
+    width: $width;
+    background-image: none;
+    margin: 0 auto;
+    }
   }
 		
 
