@@ -8,7 +8,7 @@ $spacer-bigger: $spacer * 1.5;
 $spacer-double: $spacer * 2;
 
 $font: 'Montserrat', sans-serif;
-$maxwidth: 1500px;
+$maxwidth: 1400px;
 $width: 100%;
 $lineargradient: radial-gradient( circle 1136px at 5.2% 14%,  #FFFFFF 0%, #b69982 200% );
 $menucolor: #1a1009;
@@ -752,7 +752,7 @@ body {
 .kontajner__sprava {
 	opacity: 0.2;
   width: 100%; 
-	max-width: 1500px; 
+	max-width: $maxwidth; 
 	margin: 0 auto;
 	position: relative;
 	}

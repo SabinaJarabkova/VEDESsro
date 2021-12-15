@@ -19,7 +19,7 @@ body {
 
 .kontajner {
   width: 100%;
-  max-width: 1500px;
+  max-width: 1400px;
   background-image: radial-gradient(circle 1136px at 5.2% 14%, #FFFFFF 0%, #b69982 200%);
   margin: 0 auto;
 }
@@ -684,7 +684,7 @@ body {
 .kontajner__sprava {
   opacity: 0.2;
   width: 100%;
-  max-width: 1500px;
+  max-width: 1400px;
   margin: 0 auto;
   position: relative;
 }
