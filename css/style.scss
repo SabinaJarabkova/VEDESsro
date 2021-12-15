@@ -637,6 +637,7 @@ body {
 /* CENNIK !!! */
 
 .cennik {
+  margin-bottom: 0;
 
 	&__title {
 		font-style: italic;
@@ -644,16 +645,24 @@ body {
 		margin-top: 50px;
 		}
 		
-	&__table {
+	&__tablegrid {
 		margin: 0 auto;
 		padding: 20px 40px;
+    }
+
+  &__table {
+    margin: 0 auto;
+    padding: 20px 40px;
+    }
 		
-		// @media screen and (min-width: 900px) {
-			// margin: 0 auto;
-			// padding-bottom: 25%;
-		//	}
-		}
 	}
+
+.cennik__container {
+  height: 100vh;
+  width: $width;
+  background-image: none;
+  margin: 0 auto;
+  }
 		
 
 .table__item {

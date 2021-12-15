@@ -580,14 +580,28 @@ body {
 }
 
 /* CENNIK !!! */
+.cennik {
+  margin-bottom: 0;
+}
 .cennik__title {
   font-style: italic;
   text-align: center;
   margin-top: 50px;
 }
+.cennik__tablegrid {
+  margin: 0 auto;
+  padding: 20px 40px;
+}
 .cennik__table {
   margin: 0 auto;
   padding: 20px 40px;
+}
+
+.cennik__container {
+  height: 100vh;
+  width: 100%;
+  background-image: none;
+  margin: 0 auto;
 }
 
 .table__item {
