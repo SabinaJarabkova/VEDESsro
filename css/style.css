@@ -356,6 +356,7 @@ body {
 }
 .technika__stroje {
   margin: 20px auto;
+  padding: 0 15px;
   text-align: center;
 }
 @media screen and (min-width: 900px) {
@@ -367,6 +368,7 @@ body {
 }
 .technika__auta {
   margin: 20px auto;
+  padding: 0 15px;
   text-align: center;
 }
 @media screen and (min-width: 900px) {
@@ -377,24 +379,39 @@ body {
   }
 }
 .technika__title {
-  padding: 10px 15px;
-  margin: 10px auto;
+  text-align: left;
+  padding: 5px 25px;
+}
+@media screen and (min-width: 900px) {
+  .technika__title {
+    text-align: center;
+    padding: 10px 15px;
+    margin: 10px auto;
+  }
 }
 .technika__podnadpis {
-  padding: 10px 15px;
+  padding: 10px 35px;
   margin: 10px auto;
 }
 .technika__list {
-  padding: 10px 15px;
+  padding: 10px 35px;
   margin: 10px auto;
 }
 .technika__listitem {
   list-style: none;
 }
 .technika__text {
-  width: 100%;
-  margin: 0 auto;
-  text-align: center;
+  text-align: left;
+  padding: 5px 25px;
+}
+@media screen and (min-width: 900px) {
+  .technika__text {
+    text-align: center;
+    width: 100%;
+    padding: 10px 15px;
+    margin: 0 auto;
+    text-align: center;
+  }
 }
 .technika__image {
   width: 100%;
