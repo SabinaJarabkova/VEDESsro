@@ -151,6 +151,7 @@ body {
 	width: $width;
 	/* margin-top: 20px; */
 	font-size: 12px;
+  margin-top: 0;
 	
 	@media screen and (min-width: 900px) {
 		height: 64px;
@@ -159,14 +160,13 @@ body {
 		}
 	}
 
-@media screen and (min-width: 900px) {
-	.content {
-		min-height: calc(100vh - 84px);
-		}
-	}
-	
+	.content {	
+    min-height: calc(100vh - 55px);
 
-
+    @media screen and (min-width: 900px) {
+      min-height: calc(100vh - 84px);
+    }
+  }
 
 
 
@@ -241,8 +241,7 @@ body {
 	margin-top: 0;
 	margin-left: auto;
 	margin-right: auto;
-	margin-bottom: 5px;
-}
+	}
 
 
 /* SLUZBY !!! */
@@ -347,17 +346,29 @@ body {
 
 .technika {
 
-	&__container {
+	&__container--stroje {
 		display: flex;
 		flex-wrap: wrap;
 		width: $width;
 		
 		@media screen and (min-width: 900px) {
-			flex-wrap: nowrap;
+			// flex-wrap: nowrap;
 			display: grid;
-			grid-template-columns: 1fr;
+			grid-auto-columns: 1fr 1fr;
 			}
 		}
+
+    &__container--auta {
+      display: flex;
+      flex-wrap: wrap;
+      width: $width;
+      
+      @media screen and (min-width: 900px) {
+        // flex-wrap: nowrap;
+        display: grid;
+        grid-auto-columns: repeat(3, 1fr);
+        }
+      }
 		
 	&__vykop {
 		flex-direction: column;
@@ -408,23 +419,27 @@ body {
 		}
 		
 	&__title {
-		padding: 10px 55px;
+		padding: 10px 15px;
 		margin: 10px auto;
 		}
 		
 	&__podnadpis {
-		padding: 10px 55px;
+		padding: 10px 15px;
 		margin: 10px auto;
 		}
 		
 	&__list {
-		padding: 10px 75px;
+		padding: 10px 15px;
 		margin: 10px auto;
 		}
+  
+  &__listitem {
+    list-style: none;
+    }
 		
 	&__text {
-		width: 90%;
-		padding: 15px;
+		width: 100%;
+		// padding: 15px;
 		margin: 0 auto;
 		text-align: center;
 		}
@@ -616,13 +631,13 @@ body {
 		}
 		
 	&__table {
-		margin: 10px auto;
+		margin: 0 auto;
 		padding: 20px 40px;
 		
-		@media screen and (min-width: 900px) {
-			margin: 0 auto;
-			padding-bottom: 25%;
-			}
+		// @media screen and (min-width: 900px) {
+			// margin: 0 auto;
+			// padding-bottom: 25%;
+		//	}
 		}
 	}
 		
@@ -688,13 +703,9 @@ body {
 	margin-left: 4px;
 	}
 	
-.map__image {
-	width: $width;
-	padding: 15px;
-	}
-	
 .map {
-	padding: 0 0 20px 0;
+  width: $width;
+	padding: 0;
 	}
 	
 /* SPRAVA !!! */
