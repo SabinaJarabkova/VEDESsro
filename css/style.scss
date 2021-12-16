@@ -127,6 +127,7 @@ body {
 	
 	&__toggler {
 		cursor: pointer;
+    font-size: 35px;;
 		
 		@media screen and (min-width: 900px) {
 			display: none;
