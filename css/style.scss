@@ -39,6 +39,9 @@ body {
 }
 
 /* SABLONA !!!*/
+.telcislo {
+  font-size: 18px;
+}
 
 .header {
 	width: $width;
@@ -55,7 +58,7 @@ body {
 	  }
   
 	&__nazov {
-		font-size: 24px;
+		font-size: 26px;
 	
 		@media screen and (min-width: 900px) {
 			font-size: 30px;
