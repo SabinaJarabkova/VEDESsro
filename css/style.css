@@ -28,12 +28,17 @@ body {
 .telcislo {
   font-size: 18px;
 }
+@media screen and (min-width: 875px) {
+  .telcislo {
+    font-size: 22px;
+  }
+}
 
 .header {
   width: 100%;
   padding: 5px 15px;
 }
-@media screen and (min-width: 900px) {
+@media screen and (min-width: 875px) {
   .header {
     display: flex;
     flex-direction: row;
@@ -47,12 +52,12 @@ body {
 .header__nazov {
   font-size: 26px;
 }
-@media screen and (min-width: 900px) {
+@media screen and (min-width: 875px) {
   .header__nazov {
-    font-size: 30px;
+    font-size: 33px;
   }
 }
-@media screen and (min-width: 900px) {
+@media screen and (min-width: 875px) {
   .header__box {
     display: flex;
     padding: 20px;
@@ -60,7 +65,7 @@ body {
     width: 100%;
   }
 }
-@media screen and (min-width: 900px) {
+@media screen and (min-width: 875px) {
   .header__hlavicka {
     align-items: baseline;
   }
@@ -76,7 +81,7 @@ body {
   padding: 0;
   list-style: none;
 }
-@media screen and (min-width: 900px) {
+@media screen and (min-width: 875px) {
   .menu__list {
     display: flex !important;
   }
@@ -114,17 +119,17 @@ body {
   background-color: #f0ecea;
   border-radius: 10px;
 }
-@media screen and (min-width: 900px) {
+@media screen and (min-width: 875px) {
   .menu__toggler {
     display: none;
   }
 }
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 875px) {
   .menu .menu__checkbox:checked ~ .menu__list {
     display: block;
   }
 }
-@media screen and (min-width: 900px) {
+@media screen and (min-width: 875px) {
   .menu__box {
     align-items: baseline;
   }
@@ -139,7 +144,7 @@ body {
   font-size: 12px;
   margin-top: 0;
 }
-@media screen and (min-width: 900px) {
+@media screen and (min-width: 875px) {
   .footer {
     height: 64px;
     font-size: 18px;
@@ -150,7 +155,7 @@ body {
 .content {
   min-height: calc(100vh - 55px);
 }
-@media screen and (min-width: 900px) {
+@media screen and (min-width: 875px) {
   .content {
     min-height: calc(100vh - 84px);
   }
@@ -169,7 +174,7 @@ body {
   margin-bottom: 50px;
   text-align: center;
 }
-@media screen and (min-width: 900px) {
+@media screen and (min-width: 875px) {
   .onas {
     display: flex;
     margin-right: 20px;
@@ -182,7 +187,7 @@ body {
   margin-right: auto;
   padding: 20px 30px;
 }
-@media screen and (min-width: 900px) {
+@media screen and (min-width: 875px) {
   .onas__image--bager {
     width: 100%;
     padding: 50px;
@@ -196,7 +201,7 @@ body {
   margin-right: 20px;
   border-radius: 20px;
 }
-@media screen and (min-width: 900px) {
+@media screen and (min-width: 875px) {
   .onas__text {
     padding: 15px;
     width: 75%;
@@ -207,7 +212,7 @@ body {
   text-align: left;
   padding: 5px 40px;
 }
-@media screen and (min-width: 900px) {
+@media screen and (min-width: 875px) {
   .onas__text--popis {
     padding: 15px;
   }
@@ -216,7 +221,7 @@ body {
   text-align: left;
   padding: 5px 40px;
 }
-@media screen and (min-width: 900px) {
+@media screen and (min-width: 875px) {
   .onas__text--title {
     padding: 15px;
   }
@@ -234,7 +239,7 @@ body {
   flex-wrap: wrap;
   width: 100%;
 }
-@media screen and (min-width: 900px) {
+@media screen and (min-width: 875px) {
   .sluzby__content {
     display: grid;
     grid-template-columns: 30px 1fr 1fr 50px;
@@ -247,7 +252,7 @@ body {
   width: 100%;
   padding: 5px 40px;
 }
-@media screen and (min-width: 900px) {
+@media screen and (min-width: 875px) {
   .sluzby__vykopove {
     margin: 20px;
     padding: 10px;
@@ -264,7 +269,7 @@ body {
   width: 100%;
   padding: 5px 40px;
 }
-@media screen and (min-width: 900px) {
+@media screen and (min-width: 875px) {
   .sluzby__doprava {
     margin: 20px;
     padding: 10px;
@@ -291,7 +296,7 @@ body {
   border-radius: 50%;
   padding-bottom: 20px;
 }
-@media screen and (min-width: 900px) {
+@media screen and (min-width: 875px) {
   .sluzby__image {
     width: 70%;
     margin-left: auto;
@@ -303,7 +308,7 @@ body {
   width: 100%;
   border-radius: 50%;
 }
-@media screen and (min-width: 900px) {
+@media screen and (min-width: 875px) {
   .sluzby__foto {
     border: 2px solid #1a1009;
     box-shadow: #b19682 4px 4px;
@@ -312,7 +317,7 @@ body {
     padding: 5px;
   }
 }
-@media screen and (min-width: 900px) {
+@media screen and (min-width: 875px) {
   .sluzby__text--ponuka {
     padding: 20px;
   }
@@ -324,7 +329,7 @@ body {
   flex-wrap: wrap;
   width: 100%;
 }
-@media screen and (min-width: 900px) {
+@media screen and (min-width: 875px) {
   .technika__container--stroje {
     display: grid;
     grid-auto-columns: 1fr 1fr;
@@ -335,7 +340,7 @@ body {
   flex-wrap: wrap;
   width: 100%;
 }
-@media screen and (min-width: 900px) {
+@media screen and (min-width: 875px) {
   .technika__container--auta {
     display: grid;
     grid-auto-columns: repeat(3, 1fr);
@@ -345,7 +350,7 @@ body {
   flex-direction: column;
   width: 100%;
 }
-@media screen and (min-width: 900px) {
+@media screen and (min-width: 875px) {
   .technika__vykop {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -358,7 +363,7 @@ body {
   flex-direction: column;
   width: 100%;
 }
-@media screen and (min-width: 900px) {
+@media screen and (min-width: 875px) {
   .technika__doprava {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -372,7 +377,7 @@ body {
   padding: 0 15px;
   text-align: center;
 }
-@media screen and (min-width: 900px) {
+@media screen and (min-width: 875px) {
   .technika__stroje {
     width: 80%;
     padding: 0 20px;
@@ -384,7 +389,7 @@ body {
   padding: 0 15px;
   text-align: center;
 }
-@media screen and (min-width: 900px) {
+@media screen and (min-width: 875px) {
   .technika__auta {
     width: 80%;
     padding: 0 20px;
@@ -395,7 +400,7 @@ body {
   text-align: left;
   padding: 5px 25px;
 }
-@media screen and (min-width: 900px) {
+@media screen and (min-width: 875px) {
   .technika__title {
     text-align: center;
     padding: 10px 15px;
@@ -417,7 +422,7 @@ body {
   text-align: left;
   padding: 5px 25px;
 }
-@media screen and (min-width: 900px) {
+@media screen and (min-width: 875px) {
   .technika__text {
     text-align: center;
     width: 100%;
@@ -432,7 +437,7 @@ body {
   border-radius: 50%;
   margin: 0 auto;
 }
-@media screen and (min-width: 900px) {
+@media screen and (min-width: 875px) {
   .technika__bager--text {
     grid-column: 1/2;
     grid-row: 2/3;
@@ -443,7 +448,7 @@ body {
   width: 70%;
   margin: 0 auto 30px auto;
 }
-@media screen and (min-width: 900px) {
+@media screen and (min-width: 875px) {
   .technika__bager--image {
     width: 80%;
     padding: 0;
@@ -451,7 +456,7 @@ body {
     justify-self: center;
   }
 }
-@media screen and (min-width: 900px) {
+@media screen and (min-width: 875px) {
   .technika__unc--text {
     grid-column: 2/3;
     grid-row: 2/3;
@@ -462,7 +467,7 @@ body {
   width: 70%;
   margin: 0 auto 30px auto;
 }
-@media screen and (min-width: 900px) {
+@media screen and (min-width: 875px) {
   .technika__unc--image {
     width: 80%;
     padding: 0;
@@ -470,7 +475,7 @@ body {
     justify-self: center;
   }
 }
-@media screen and (min-width: 900px) {
+@media screen and (min-width: 875px) {
   .technika__liaz--text {
     grid-column: 1/2;
     grid-row: 2/3;
@@ -483,7 +488,7 @@ body {
   width: 70%;
   margin: 0 auto 30px auto;
 }
-@media screen and (min-width: 900px) {
+@media screen and (min-width: 875px) {
   .technika__liaz--image {
     grid-column: 1/2;
     grid-row: 1/2;
@@ -492,7 +497,7 @@ body {
     justify-self: center;
   }
 }
-@media screen and (min-width: 900px) {
+@media screen and (min-width: 875px) {
   .technika__ducato--text {
     grid-column: 2/3;
     grid-row: 2/3;
@@ -504,7 +509,7 @@ body {
   width: 70%;
   margin: 0 auto 30px auto;
 }
-@media screen and (min-width: 900px) {
+@media screen and (min-width: 875px) {
   .technika__ducato--image {
     height: 80%;
     width: 85%;
@@ -513,7 +518,7 @@ body {
     justify-self: center;
   }
 }
-@media screen and (min-width: 900px) {
+@media screen and (min-width: 875px) {
   .technika__kamion--text {
     grid-column: 3/4;
     grid-row: 2/3;
@@ -524,7 +529,7 @@ body {
   width: 70%;
   margin: 0 auto 30px auto;
 }
-@media screen and (min-width: 900px) {
+@media screen and (min-width: 875px) {
   .technika__kamion--image {
     height: 80%;
     width: 85%;
@@ -533,7 +538,7 @@ body {
     justify-self: center;
   }
 }
-@media screen and (min-width: 900px) {
+@media screen and (min-width: 875px) {
   .technika__hr {
     width: 100%;
     color: #1a1009;
@@ -547,7 +552,7 @@ body {
   margin-left: auto;
   margin-right: auto;
 }
-@media screen and (min-width: 900px) {
+@media screen and (min-width: 875px) {
   .gallery {
     padding: 40px;
   }
@@ -564,7 +569,7 @@ body {
   display: grid;
   grid-template-columns: 1fr;
 }
-@media screen and (min-width: 900px) {
+@media screen and (min-width: 875px) {
   .gallery__grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -577,7 +582,7 @@ body {
   width: 100%;
   padding: 10px 5%;
 }
-@media screen and (min-width: 900px) {
+@media screen and (min-width: 875px) {
   .gallery__item {
     height: 100%;
     -o-object-fit: cover;
@@ -585,7 +590,7 @@ body {
     padding: 0;
   }
 }
-@media screen and (min-width: 900px) {
+@media screen and (min-width: 875px) {
   .gallery__item:nth-child(5n+2) {
     grid-column: span 2;
     grid-row: span 2;
@@ -609,7 +614,7 @@ body {
   padding: 20px 40px;
 }
 
-@media screen and (min-width: 900px) {
+@media screen and (min-width: 875px) {
   .cennik__container {
     height: calc(100vh + 170px);
     width: 100%;
@@ -649,7 +654,7 @@ body {
   padding: 15px 35px;
   margin-bottom: 20px;
 }
-@media screen and (min-width: 900px) {
+@media screen and (min-width: 875px) {
   .kontakt__grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -657,7 +662,7 @@ body {
     padding: 40px;
   }
 }
-@media screen and (min-width: 900px) {
+@media screen and (min-width: 875px) {
   .kontakt__title {
     margin-top: 2rem;
   }
