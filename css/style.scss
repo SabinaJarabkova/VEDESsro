@@ -127,7 +127,15 @@ body {
 	
 	&__toggler {
 		cursor: pointer;
-    font-size: 35px;;
+    font-size: 45px;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    border: 2px solid $menucolor;
+    padding:  0 5px;
+    color: white;
+    background-color: $menucolor;
+    border-radius: 10px;
 		
 		@media screen and (min-width: 900px) {
 			display: none;
